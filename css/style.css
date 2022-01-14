@@ -8,6 +8,25 @@ body{
 .hilight-color{
     color: rgb(194, 32, 194);
 }
+
+.anamintion1{
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    font-size: 30px;
+    position: relative;
+    animation: nasir 2s ease-in-out 1s infinite alternate ;
+    
+
+}
+@keyframes nasir {
+    form{
+        left: 0px;
+    }
+    to{
+        left: 300px;  
+    }   
+}
 /* nav  */
 nav{
     display: flex;
