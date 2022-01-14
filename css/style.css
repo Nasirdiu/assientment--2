@@ -42,8 +42,8 @@ body{
     top: 5px;
     box-shadow:0 2px 0 rgb(156, 24, 128) ;
 }
-.fas{
-    color: white;
+.fa-arrow-right .butt{
+    color: rgb(245, 240, 240);
     font-size: 18px;
 }
 .banner-photo img{
@@ -81,4 +81,33 @@ body{
 .middle-banner img{
     width: 100%;
 }
+.priz-band{
+    font-size: 24px;
+}
+.middle-contain{
+    font-size: 18px;
+    color: #787885;;
+}
+.middle-exit a{
+    text-decoration: none;
+    color: rgb(194, 32, 194);
+    font-size: 16px;
+    position: absolute;
+    left: 1144px;
+    
+}
+/* exit middle  */
 
+.foot-text{
+   
+    text-align: center;
+    background-color: black;
+     color: white; 
+}
+.foot-text h1{
+    font-size: 25px;
+}
+.fotter-icon{
+   text-align: center;
+   font-size: 25px;  
+}
