@@ -33,8 +33,6 @@ nav{
 
 
 
-
-
 .banner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -120,11 +118,40 @@ nav{
     color: rgb(194, 32, 194);
     font-size: 16px;
     position: absolute;
-    left: 1144px;
-    
-    
+    left: 1144px;    
 }
+
 /* exit middle  */
+.contact-text{
+    text-align: center;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.contact-left img{
+    width: 100%;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-contact{
+
+    width: 65%;
+    margin: 5px 0;
+    font-size: 18px;
+    border: 1px solid rgb(216, 58, 195);
+   
+}
+hr{
+    border: 2px solid rgb(241, 187, 239);
+}
+
+/* contact  */
 
 .foot-text{
    
