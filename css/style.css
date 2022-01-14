@@ -12,6 +12,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
+    padding: 0px 50px;
 }
 .banner-left{
     display: flex;
@@ -34,13 +35,32 @@ body{
     position: relative;
     border-radius: 5px;
     box-shadow: 0 7px 0 rgb(156, 24, 128);
+    font-size: 18px;
+    font-weight: 700;
 }
 .spical-buttion:active{
     top: 5px;
     box-shadow:0 2px 0 rgb(156, 24, 128) ;
+}
+.fas{
+    color: white;
+    font-size: 18px;
 }
 .banner-photo img{
     width: 440px;
     height: 414px;
 }
 
+/* end to banner */
+
+.seletion-title h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.fa-star.fall{
+    color: rgb(204, 106, 49);
+}
+.fa-star-half-alt.huf{
+    color: rgb(204, 106, 49);
+}
