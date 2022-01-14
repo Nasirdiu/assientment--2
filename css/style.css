@@ -64,3 +64,21 @@ body{
 .fa-star-half-alt.huf{
     color: rgb(204, 106, 49);
 }
+.middle{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 300px;
+}
+.middles{
+    width: 280px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 30px 35px rgb(220, 240, 223);
+    margin: 0 auto;
+}
+.middle-banner img{
+    width: 100%;
+}
+
