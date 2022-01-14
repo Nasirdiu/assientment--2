@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lobster&family=Poppins:wght@500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hilight-color{
+    color: rgb(194, 32, 194);
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-left h1{
+    font-size: 52px;
+}
+.banner-left p{
+    font-size: 18px;
+}
+.spical-buttion{
+    border: 0;
+    background-image: linear-gradient(rgb(156, 13, 113),rgb(196, 20, 196));
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 7px 0 rgb(156, 24, 128);
+}
+.spical-buttion:active{
+    top: 5px;
+    box-shadow:0 2px 0 rgb(156, 24, 128) ;
+}
+.banner-photo img{
+    width: 440px;
+    height: 414px;
+}
+
