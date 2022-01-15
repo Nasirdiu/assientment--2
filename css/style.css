@@ -19,25 +19,6 @@ body{
     color: rgb(194, 32, 194);
 }
 
-.anamintion{
-    width: 150px;
-    height: 50px;
-    background-color: rgb(219, 24, 187);
-    color: white;
-    font-size: 30px;
-    position: relative;
-    animation: nasir 2s ease 1s infinite alternate ;
-    
-
-}
-@keyframes nasir {
-    form{
-        left: 0px;
-    }
-    to{
-        left: 300px;  
-    }   
-}
 /* nav  */
 nav{
     display: flex;
@@ -114,7 +95,11 @@ nav{
     width: 440px;
     height: 414px;
 }
+.banner-photo:hover img{
+    transform: scale(-0.5) rotate(180deg);
+    transition: transform 5s ease-in-out;
 
+}
 /* end to banner */
 
 .seletion-title h1{
@@ -259,4 +244,5 @@ hr{
        flex-direction: column;
        justify-content: center;
    }
+
 }
