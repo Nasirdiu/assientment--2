@@ -3,19 +3,21 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color:  #AAAAAA;;
 }
 
 .hilight-color{
     color: rgb(194, 32, 194);
 }
 
-.anamintion1{
+.anamintion{
     width: 150px;
     height: 50px;
-    background-color: chocolate;
+    background-color: rgb(219, 24, 187);
+    color: white;
     font-size: 30px;
     position: relative;
-    animation: nasir 2s ease-in-out 1s infinite alternate ;
+    animation: nasir 2s ease 1s infinite alternate ;
     
 
 }
@@ -49,9 +51,6 @@ nav{
 
 }
 
-
-
-
 .banner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -81,6 +80,14 @@ nav{
     box-shadow: 0 7px 0 rgb(156, 24, 128);
     font-size: 18px;
     font-weight: 700;
+    transition: width 1s ease 1s,height 1s,trasform 1s;
+}
+
+.spical-buttion:hover{
+    width: 25%;
+    height: 50px;
+    transform: rotate(-3deg);
+
 }
 .spical-buttion:active{
     top: 5px;
@@ -102,12 +109,7 @@ nav{
     font-size: 40px;
 
 }
-.fa-star.fall{
-    color: rgb(204, 106, 49);
-}
-.fa-star-half-alt.huf{
-    color: rgb(204, 106, 49);
-}
+
 .middle{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -132,6 +134,12 @@ nav{
     font-size: 18px;
     color: #787885;;
 }
+.fa-star.fall{
+    color: rgb(204, 106, 49);
+}
+.fa-star-half-alt.huf{
+    color: rgb(204, 106, 49);
+}
 .middle-exit a{
     text-decoration: none;
     color: rgb(194, 32, 194);
@@ -152,6 +160,11 @@ nav{
 .contact-left img{
     width: 100%;
 }
+.contact-left:hover{
+transform: scale(.900);
+transition: transform 4s ease-in-out;
+}
+
 .contact-right form{
     display: flex;
     flex-direction: column;
