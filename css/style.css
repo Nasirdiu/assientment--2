@@ -20,8 +20,8 @@ body{
 }
 
 .anamintion{
-    /* width: 150px;
-    height: 50px; */
+    width: 150px;
+    height: 50px;
     background-color: rgb(219, 24, 187);
     color: white;
     font-size: 30px;
@@ -30,14 +30,14 @@ body{
     
 
 }
-/* @keyframes nasir {
+@keyframes nasir {
     form{
         left: 0px;
     }
     to{
         left: 300px;  
     }   
-} */
+}
 /* nav  */
 nav{
     display: flex;
@@ -134,7 +134,7 @@ nav{
     justify-content: flex-end;
 }
 .middles{
-    /* width: 280px; */
+    width: 280px;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 30px 35px rgb(220, 240, 223);
@@ -196,7 +196,7 @@ transition: transform 4s ease-in-out;
    
 }
 hr{
-    border: 2px solid rgb(241, 187, 239);
+    border: 1px solid rgb(241, 187, 239);
 }
 
 /* contact  */
