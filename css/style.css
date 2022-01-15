@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lobster&family=Poppins:wght@500&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -16,8 +20,8 @@ body{
 }
 
 .anamintion{
-    width: 150px;
-    height: 50px;
+    /* width: 150px;
+    height: 50px; */
     background-color: rgb(219, 24, 187);
     color: white;
     font-size: 30px;
@@ -26,14 +30,14 @@ body{
     
 
 }
-@keyframes nasir {
+/* @keyframes nasir {
     form{
         left: 0px;
     }
     to{
         left: 300px;  
     }   
-}
+} */
 /* nav  */
 nav{
     display: flex;
@@ -102,6 +106,10 @@ nav{
     color: rgb(245, 240, 240);
     font-size: 18px;
 }
+.banner-photo{
+    display: flex;
+    justify-content: flex-end;
+}
 .banner-photo img{
     width: 440px;
     height: 414px;
@@ -120,10 +128,13 @@ nav{
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     gap: 30px;
-    padding: 0px 300px;
+}
+.right-position{
+    display: flex;
+    justify-content: flex-end;
 }
 .middles{
-    width: 280px;
+    /* width: 280px; */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 30px 35px rgb(220, 240, 223);
@@ -203,4 +214,49 @@ hr{
    text-align: center;
    font-size: 25px;
    
+}
+/* ---------------------------rersponsive --------------------------------------------*/
+@media (max-width:1200px) {
+    .continner{
+        width: 100%;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;        
+    }
+    .banner{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .banner-photo{
+        width: 100%;
+    }
+    .banner-photo img{
+        width: 100%;
+    }
+}
+@media (max-width:800px) {
+   .nav-manu{
+       display: none;
+   } 
+   .banner{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .banner-left h1{
+       font-size: 25px;
+       padding: 20px 0;
+   }
+   .middle,
+   .contact,
+   header{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   header{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
 }
