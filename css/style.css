@@ -221,7 +221,7 @@ hr{
         width: 100%;
     }
 }
-@media (max-width:800px) {
+@media (max-width:688px) {
    .nav-manu{
        display: none;
    } 
